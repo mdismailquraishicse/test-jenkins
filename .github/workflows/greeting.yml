@@ -2,7 +2,7 @@ name: Greetings
 On: push
 jobs:
   greet:
-      runs-on: python:slim
-        steps:
-          - name: "greet user"
-          - run: echo "hello action"
+      runs-on: ubuntu-latest
+      steps:
+        - name: "greet user"
+        - run: echo "hello action"
