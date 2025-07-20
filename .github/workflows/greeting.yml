@@ -1,5 +1,7 @@
 name: Greetings
-on: push
+on:
+  push:
+  workflow-dispatch:
 jobs:
     greet:
           runs-on: ubuntu-latest
