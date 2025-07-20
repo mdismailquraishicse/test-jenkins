@@ -1,0 +1,8 @@
+name: Greetings
+On: push
+jobs:
+  greet:
+    runs-on: python:alpine
+      steps:
+        - name: "greet user"
+        - run: echo "hello action"
